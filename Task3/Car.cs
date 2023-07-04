@@ -2,14 +2,14 @@ namespace Task3;
 
 public class Car : IVehicle
 {
-    int _amount = 0;
+    public int Amount { get; set; }
     public Car(int amount)
     {
-        _amount = amount;
+       Amount = amount;
     }
     public void Drive()
     {
-        if (_amount > 0)
+        if (Amount > 0)
         {
             System.Console.WriteLine("Driving");
         }
@@ -22,7 +22,7 @@ public class Car : IVehicle
     {
         if (amount > 0)
         {
-            _amount += amount;
+            Amount += amount;
             return true;
         }
         else
