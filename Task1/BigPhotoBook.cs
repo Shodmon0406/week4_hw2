@@ -2,10 +2,7 @@ namespace Task1;
 
 public class BigPhotoBook : PhotoBook
 {
-    // int _numPages = 64;
-    // public int GetNumberPages() => _numPages;
-    public BigPhotoBook()
+    public BigPhotoBook() : base (64)
     {
-        base.NumPages = 64;
     }
 }

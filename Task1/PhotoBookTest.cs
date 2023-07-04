@@ -7,8 +7,8 @@ public class PhotoBookTest
     BigPhotoBook book3 = new BigPhotoBook();
     public PhotoBookTest()
     {
-        System.Console.WriteLine($"{book1.NumPages}");
-        System.Console.WriteLine($"{book2.NumPages}");
-        System.Console.WriteLine($"{book3.NumPages}");
+        System.Console.WriteLine($"{book1.GetNumberPages()}");
+        System.Console.WriteLine($"{book2.GetNumberPages()}");
+        System.Console.WriteLine($"{book3.GetNumberPages()}");
     }
 }
